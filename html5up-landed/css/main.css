@@ -1,0 +1,141 @@
+/* 
+    Author: LARBI Ishak
+    languages: html, pug, css, js
+    object: well use of pug preprocessor beside learning
+
+*/
+body{
+    height: 4000px;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* start Navbar */
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    overflow: hidden;
+    background-color: rgb(25, 27, 36);
+    color: white;
+    line-height: 60px;
+}
+nav .brand a {
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: #ccc;
+}
+nav ul li {
+    margin-left: 25px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 0 8px;
+    color: white;
+    transition: .5s;
+}
+nav ul li a:hover {
+    color: red;
+}
+nav ul li button {
+    margin-right: 25px;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+/* end Navbar */
+
+/* start Header */
+header{
+    background-color: rgb(25, 27, 36);
+    height: calc(100vh - 60px);
+    color: white;
+}
+.mainContainer{
+    display: flex;
+    gap: 3%;
+    height: calc(100vh - 95px);
+    align-items: center;
+}
+.mainContainer .title{
+    flex-basis: 52%;
+    text-align: right;
+}
+.mainContainer .title h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.mainContainer .image{
+    flex-basis: 45%;
+    padding: 10px;
+}
+.mainContainer .image img{
+    border-radius: 50%;
+
+}
+header .con {
+    display: flex;
+    justify-content: center;
+}
+header .con #arrow {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    height: 35px;
+}
+
+/* end Header*/
+/* start Section */
+section.show .imgWrap{
+    margin: 0;
+    padding: 0;
+}
+section.show img{
+    width: 100%;
+    margin: 0;
+    height: 350px;
+}
+section.show article {
+    display: flex;
+    margin: 0;
+    padding: 20px 20px;
+    background-color: rgb(25, 27, 36);
+    gap: 2%;
+}
+section.show article > div {
+    flex-basis: 32%;
+    border-right: 4px greenyellow solid;
+    color: #ccc;
+}
+section.show article > div:first {
+    color: white;
+}
+/* end Section */

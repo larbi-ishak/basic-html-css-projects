@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.slide {
+    background: url("../images/coffee.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 570px;
+    position: relative;
+}
+.slide .container {
+    padding-top: 20px;
+    position: relative
+}
+.slide h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+.slide .head{
+    margin-top: 130px
+}
+
+@media (max-width:991px) {
+    .slide h2 {
+        text-align: center
+    }
+}
+.slide a {
+    writing-mode: sideways-rl;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    font-weight: bold
+}
+.slide a:hover,
+.slide a.active{
+    color: #1abc9c;
+    border-bottom: 1px solid #1abc9c;
+}
+.slide .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+.slide h2 {
+    color: #fff;
+    text-align: center
+}
+.slide h2 span {
+    color: #1abc9c;
+    text-transform: uppercase;
+}
+.slide h2 ~ p {
+    color: #909090;
+    text-align: center;
+   
+}
+.slide ul {
+    text-align: center
+}
+.slide li {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition:all .7s ease-in-out;
+    -moz-transition:all .7s ease-in-out;
+    -o-transition:all .7s ease-in-out;
+    transition:all .7s ease-in-out;
+}
+.slide li:hover {
+    background-color: #1abc9c;
+}
+#h2, #h3 {
+    display: none
+}
+
+.slide #ul1 {
+    background-color: #fff
+}
+.slide button {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-left: 45%;
+    margin-top: 50px
+}
+/* End Slider */
+
+/* Start Our Services */
+.ser {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.ser .row {
+    margin-top: 30px
+}
+.ser h2 {
+    text-transform: capitalize;
+    font-weight: bold
+}
+.ser h2:after {
+    content: "______";
+    display: block;
+    
+}
+.ser span {
+    color: #1abc9c;
+    font-weight: bold;
+    float: left;
+    width: 20%;
+    clear: both;
+    font-size: 50px;
+    margin-right: 25px
+} 
+.ser .cont {
+    float: right;
+    width:68%
+}
+.ser .cont h4 {
+    font-weight: bold
+}
+.ser .cont p {
+    color: #909090;
+    line-height: 1.4
+}
+.ser hr {
+    background-color: #888
+}
+/* End Our Services */
+
+/* Start Our Team */
+.team {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.team h2 {
+    text-transform: capitalize;
+    font-weight: bold
+}
+.team h2:after {
+    content: "______";
+    display: block;
+    
+}
+.team p {
+    color: #909090;
+    margin-top: 30px;
+    
+}
+.team .fst{
+    background: url("../images/bandmember.jpg");
+    background-size: cover;
+    width: 90%;
+    height: 190px;
+    position: relative;
+}
+.team .n2d{
+    background: url("../images/img_avatar3.png");
+    background-size: cover;
+    height: 190px;
+    position: relative;
+}
+.team .t3r{
+    background: url("../images/img_avatar5.png");
+    background-size: cover;
+    height: 190px;
+    position: relative;
+}
+.team .f4r{
+    background: url("../images/img_avatar2.png");
+    background-size: cover;
+    height: 190px;
+    position: relative;
+}
+.team .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all .7s ease-in-out;
+
+}
+.team .overlay p {
+    display: none;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50%
+}
+.team .overlay:hover {
+    background-color: rgba(13, 159, 125, 0.6);
+    content: "____"
+}
+/* End Our Team */
+
+/* Start testimonials */
+.testim {
+    background: url("../images/espresso.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.testim h2 {
+    text-transform: capitalize;
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+     
+        
+}
+.testim h2:after {
+    content: "______";
+    display: block;
+    font-weight: bold
+    
+}
+.testim p{
+    margin-top: 80px;
+    color: #fff;
+    text-align: center;
+}
+.testim h3 {
+    color: #1abc9c;
+    margin-top: 100px;
+    font-weight: bold;
+    text-align: center;
+    writing-mode: vertical-lr;
+}
+/* End testimonials */
+
+/* Start Footer */
+.footer{
+    background-color: #232323;
+    color: #fff;
+    padding-top: 36px;
+    color: #6c6c6c;
+    padding-bottom: 20px;
+}
+.footer h5 {
+    margin-bottom: 30px;
+    color: #e0e0e0
+}
+.footer h5 span {
+    color: #1abc9c
+}
+.footer p {
+    margin-bottom: 30px;
+}
+.footer .icons span {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 30px;
+    border: 3px solid #4d4d4d;
+    margin-bottom: 30px
+}
+.footer button {
+    color: #afafaf;
+    border: 2px solid #afafaf;
+    padding: 5px;
+    background-color: transparent;
+    margin: 5px
+}
+.footer img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+ 
+.footer .col-md-3 {
+    width: 100%
+}
+.footer .post p {
+    float: left;
+    padding: 0;
+    margin: 0
+}
+.footer .posts{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.posts div {
+    margin-bottom: 10px;
+}
+.footer .posts p {
+    color: white;
+}
+.footer li {
+    color: #afafaf;
+    border-bottom: 1px solid #afafaf;
+    padding: 10px;
+    width: 100%
+}
+/* End Footer */
+
+/* Start Responsive */
+@media (max-width: 786px){
+
+
+
+
+}
+/* Start Responsive */

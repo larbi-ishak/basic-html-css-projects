@@ -1,0 +1,556 @@
+/*
+
+    Designer: Larbi Ishak
+    Tools: Bootstrap
+    
+
+*/
+/* Main Rules */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/* End Main Rules */
+
+/* Start up-bar */
+.up-bar {
+    background-color: #001d93;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.up-bar span  {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.up-bar i{
+    line-height: 25px;
+    color: #b1b1b1;
+    padding-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.up-bar i .mail {
+    color: #fff;
+    font-size: 16px
+}
+.up-bar button {
+    background-color: transparent;
+    border: 1px solid #930600;
+    color: #777
+}
+.up-bar .barwo {
+    color: #909090
+}
+nav {
+    margin-top: 10px
+}
+nav a {
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    color: #001184;
+    text-decoration: none;
+    margin-right: 25px;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+    line-height: 50px
+    
+}
+nav a ~  .genericon {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #001184;
+    font-size: 20px;
+    display: none
+}
+nav a:hover {
+    color: #f00;
+    text-decoration: none
+}
+@media (max-width:991px) {
+    nav a {
+        display: none
+    }
+}
+
+nav h2 {
+    color: #001d93;
+    font-weight: bold
+}
+nav h2 span {
+    color: #f00;
+    font-weight: 100
+    
+}
+.inter {
+    background: url("../images/la.jpg") no-repeat;
+    background-size: cover;
+    height: 600px
+}
+.inter h1 {
+    color: #fff;
+    font-weight: bold;
+    padding: 70px auto;
+    width: 49%;
+    padding-top: 100px;
+    line-height: 1.5
+}
+.inter h1 span {
+    background-color: #f00;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.inter h1{
+
+    color: #fff;
+    font-weight: bold;
+    padding: 70px auto;
+    width: 49%;
+    padding-top: 100px;
+    line-height: 1.5
+}
+
+/* End Header */
+
+/* Start Features */
+.feat {
+    padding-top: 30px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+.feat .genericon{
+    color: #fff;
+    background-color: #f00;
+    font-size: 35px;
+    border-radius: 50%;
+    padding: 10px
+}
+.feat h4 {
+    color: #176b8e;
+    font-weight: bold;
+    padding: 10px;
+    padding-bottom: 0
+}
+.feat p{
+    color: #909090;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+/* End Features */
+
+/* Start Overview */
+.over {
+    background-color: #fafafa;
+    margin-top: 40px;
+}
+.over .h1 {
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase
+}
+.over p ~ p{
+    font-family: tahoma;
+    letter-spacing: 4px
+}
+.over button {
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #f00;
+    background-color: #f00
+}
+/* End Overview */
+/* Start Work */
+.work {
+    background-color: #fafafa;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.work .h1 {
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase
+}
+.work .lead {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.work img {
+    width: 24.5%;
+    height: 400px;
+    margin-bottom: 5px
+
+}
+/* End Work */
+
+/* Start Post */
+.post {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.post .h1 {
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase
+}
+.post img { 
+    width: 100%;
+    height: 250px;
+}
+.post h3 {
+    font-weight: bold;
+    color: #07ccb7
+}
+.post span {
+    color: #909090
+}
+.post p ~ p {
+    color: #f00;
+    font-weight: bold
+}
+.post p ~ p span { 
+    color: #f00;
+    font-weight: bold;
+    line-height: 1.5
+}
+/* End Post */
+
+/* Start Testimonials */
+.testim {
+    background-color: #fafafa;
+    margin-top: 40px;
+}
+.testim .h1 {
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase
+}
+.testim h4 {
+    color: #f00
+}
+.testim .car {
+    background: url("../images/espresso%20(2).jpg") no-repeat ;
+    background-size: cover;
+    padding-bottom: 3px
+}
+.testim .car img{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px
+}
+.testim .car #h2,
+.testim .car #h3 {
+    display: none
+}
+.testim ul {
+    text-align: center
+}
+.testim li {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition:all .7s ease-in-out;
+    -moz-transition:all .7s ease-in-out;
+    -o-transition:all .7s ease-in-out;
+    transition:all .7s ease-in-out;
+    margin-top: 30px;
+    margin-left: 5px
+}
+.testim li:hover {
+    background-color: #f00;
+}
+.testim #ul1 {
+    background-color: #fff
+}
+.testim .car {
+    color: #fff
+}
+.testim .car p {
+    margin-left:50px;
+    margin-right:50px;
+}
+
+/* End Testimonials */
+
+/* Start Pricing */
+.price {
+    margin-top: 40px;
+    text-align: center
+}
+.price .h1 {
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase
+}
+.price .row h4{
+    margin-top: 10px;
+    color: #0223ba;
+    font-weight: bold
+}
+.price .row .table h2 {
+    color: #001d93;
+    font-size: 52px;
+    margin-top: 40px;
+    margin-bottom: 35px
+}
+.price .row .table h2 span {
+    font-size: 26px;
+    font-weight: 100
+}
+.price .row .lead {
+    color: #777;
+    line-height: 2.4
+}
+.price .row .custom h2 {
+    color: #fff;
+    font-size: 52px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    background-color: #f00
+}
+.price .row .custom h2 span {    
+    font-size: 26px;
+    font-weight: 100
+}
+.price .row .col-md-4 {
+    box-shadow: inset -2px -1px 5px #ccc, -5px -6px 16px 0px #e6e3e3;
+    border: 1px solid #ccc;
+    margin-bottom: 10px
+}
+.price .row .table button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px
+}
+.price .row .custom button {
+    background-color: #001d93;
+    color: #fff;
+    border: none;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px
+}
+/* End Pricing */
+
+/* Start Choose */
+.choose {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.choose img {
+    width: 100%;
+    height: 100%
+}
+.choose .cret {
+    background-color: #001d93;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px
+}
+.choose .cret h2 {
+    font-weight: bold;
+    margin-top: 30px;
+    color: #fff;
+}
+.choose .cret p {
+    color: #fff;
+    margin-top: 20px
+}
+.choose .cret p ~ p {
+    margin-top: 30px
+}
+.choose .cret button {
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    background-color: #f00;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* End Choose */
+
+/* Start Statistics */
+.stat {
+    padding-top: 50x;
+    margin-bottom: 50x;
+    color: #001d93
+}
+.stat .genericon {
+    font-size: 100px;
+    margin-top: 50px
+}
+.stat h3 {
+    font-weight: bold;
+    font-size: 35px
+}
+.stat h3 ~ p {
+    color: #f00
+}
+/* End Statistics */
+
+/* Start Contact Us */
+.contact .con  {
+    background-color: #f00;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact .con .container h2 {
+    font-weight: 100
+}
+.contact .con .container button {
+    background-color: #f00;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-right: 25px;
+    padding-left: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 2px solid #fff;
+}
+.com {
+    margin-top: 60px
+}
+.com h2 {
+    color: #001d93;
+    font-weight: bold
+}
+.com h2 span {
+    color: #f00;
+    font-weight: 100
+    
+}
+.com h2 ~ p{
+    color: #959595;
+    letter-spacing: .5px;
+    margin-top: 20px;
+    line-height: 1.7
+}
+.com h2 ~ p ~ a span {
+    background-color: #001d93;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 8px
+}
+.com h2 ~ p ~ a {
+    color: #001d93;
+    text-decoration: none;
+    font-size: 20px
+}
+.com h4 {
+    color: #001d93;
+}
+.com .col-md-3 span{
+    padding: 2px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #0c0f22
+}
+.com a {
+    color: #001d93;
+    text-decoration: none;
+    width: 50%
+}
+.com .fer {
+    line-height: 2.8;
+    color: #004d92
+}
+.com .fer span {
+    color: #001d93;
+}
+.contact hr {
+    margin-top: 35px;
+    background-color: #939393;
+    
+    
+}
+.contact .foot {
+    margin-left: 50px;
+    margin-right: 0
+}
+.contact .foot p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #909090
+}
+.contact .foot span {
+    font-size: 35px;
+    margin-right: 10px
+}
+.foot a {
+    text-decoration: none;
+    color: #4a4a4a;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.foot a:hover {
+    color: #000
+}
+/* End Contact Us */
+
+/* Tutorial on editing the scrollbar */
+::-webkit-scrollbar {
+    width: 9px;
+
+}
+ ::-webkit-scrollbar-thumb {
+     background: linear-gradient(rgb(58, 58, 58),red);
+     border-radius: 8px;
+     border: 1px solid rgb(58, 58, 58)
+}
+ ::-webkit-scrollbar-thumb:hover {
+     background-color: white;
+}
+
+::-webkit-scrollbar-track {
+    background-color:rgb(58, 58, 58);
+    box-shadow:inset 0 0 3px rgb(156, 156, 156);
+     border-radius: 8px;
+    margin-block-end: 100px
+    /* margin-block is margin form the top and the bottom */
+    /* end is bottom and start is top */
+}

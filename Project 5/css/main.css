@@ -1,0 +1,328 @@
+/*
+
+    Designer: Larbi Ishak
+    Tools: Bootstrap, Some Knowledge 
+    
+
+*/
+/* Main Rules */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    
+}
+.upper {
+    text-transform: uppercase
+}
+.main-color {
+    color:  #f7600e
+}
+.main-background {
+    background-color: #f7600e
+}
+.bold {
+    font-weight: bold;
+}
+.link-unstyled {
+    text-decoration: none;
+    color: #fff
+}
+/* End Main Rules */
+/* Start Header */
+.head {
+    background: url("../images/la.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff
+}
+.head .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(70, 70, 70, 0.7)
+}
+.head .container {
+    position: relative;
+    padding-top: 20px
+}
+.head .container .nrml {
+    float: left;
+    font-size: 25px
+}
+.head .container .menu {
+    float: right;
+}
+.head .container .menu .genericon {
+    margin-left: 10px;
+    font-size: 26px
+}
+.head .container h1 {
+    margin-top: 100px
+}
+.head .container .buttons button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border: 3px solid #888;
+    font-weight: 100;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    margin-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.head .container button:hover {
+    background-color: #f7600e
+}
+@media (max-width:768px) {
+    .head .container button {
+        margin-left: 10%;
+    }
+}
+@media (max-width:435px) {
+    .head .container button {
+        margin-left: 5%;
+    }
+}
+@media (max-width:391px) {
+    .head .container button {
+        margin-left: 2%;
+    }
+}
+.head .container div p {
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; 
+}
+.head .genericon-expand:hover {
+    background-color: #f7600e;
+}
+/* End Header */
+
+/* Start Features */
+.feat {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.feat .genericon {
+    border: 1px solid #f7600e;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    
+}
+/* En Features */
+
+/* Start Subscribe */
+.subs {
+    background: url("../images/espresso%20(2).jpg") no-repeat;
+    background-size: cover;
+    height: 200px
+}
+.subs .container {
+    padding-top: 80px;
+    text-align: center
+}
+
+.subs form input[type="email"] {
+    border: none;
+    border-radius: 3px;
+    text-indent: -2px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+.subs form input[type="submit"] {
+    color: #fff;
+    border: none;
+    opacity: 1;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 10px;
+    border-radius: 3px;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+}
+.subs form input[type="submit"]:hover {
+    opacity: .8
+}
+/* End Subscribe */
+/* Start Our Works */
+.work {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.work .container {
+    margin-top: 25px;
+}
+.work .container .row .col-md-4 {;
+    margin-bottom: 20px
+}
+
+.work .container .row img {
+    box-shadow: 3px 3px 5px #ccc, -3px -3px 5px #ccc;
+    margin-bottom: 10px;
+    height: 204px;
+    width: 100%;
+}
+.work .container .row img ~ a {
+    text-decoration: none;
+    color: #f7600e;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #f7600e;
+    padding: 5px 10px;
+}.work .container .row img ~ a div {
+    line-height: 1.5
+}
+/* End Our Works */
+/* Start testimonials */
+.testim {
+    background: url("../images/coffee.jpg") no-repeat;
+    background-size: cover;
+    position: relative
+}
+.testim .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(83, 82, 82, 0.8);
+}
+.testim .offer {
+    position: relative
+}
+.testim .comment {
+    color: #efefef;
+    margin-top: 15px;
+    position: relative
+}
+.testim li {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition:all .7s ease-in-out;
+    -moz-transition:all .7s ease-in-out;
+    -o-transition:all .7s ease-in-out;
+    transition:all .7s ease-in-out;
+    margin-bottom: 15px;
+}
+.testim li:hover {
+    background-color: #f7600e;
+}
+.testim img {
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+}
+#h2, #h3 {
+    display: none
+}
+.testim #ul1 {
+    background-color: #fff
+}
+
+/* End testimonials */
+
+/* Start Footer */
+.footer {
+    background: url("../images/mountain.jpg");
+    background-size: cover;
+    color: #fff;
+    border-top: 1px solid #f7600e;
+    border-bottom: 1px solid #f7600e;
+    margin-top: 20px;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.footer .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+.footer .container {
+    position: relative
+}
+.footer .container .one {
+   margin-top: 40px 
+}
+.footer h4 {
+    text-decoration: underline;
+    color: #f76e00
+}
+.footer .container .nrml {
+    display: block;
+    font-size: 35px
+}
+.footer li {
+    color: #afafaf;
+    border-bottom: 1px solid #afafaf;
+    padding: 8px;
+    width: 100%
+}
+.footer .soc div {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.footer .soc div:hover {
+    color: #000;
+    font-weight: bold;
+    transform: scale(1.2, 1.2)
+}
+.footer .link-unstyled:hover {
+    text-decoration: none
+}
+.footer .rights {
+    color: #000
+}
+/* End Footer */

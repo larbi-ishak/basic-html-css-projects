@@ -1,0 +1,705 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* Start Grouping */
+
+.navigation h2 .customName ,
+.header h1 .h1,
+.header .dom h5 span,
+.header .dom input,
+.sublist .subInfo .ghr,
+.awsome .genericon
+{
+    color: #ff791e
+}
+.header .dom input[type="submit"],
+.tab .col-md-2 button:first-child,
+.tab .col-md-2 button:hover,
+.tab .up,
+.awsome hr,
+.pricing hr,
+.pricing .services h6,
+.testim hr,
+.contact hr,
+.contact button
+{
+    background-color: #ff791e
+}
+.navigation,
+.header .lead,
+.navigation a:hover,
+.header h1,
+.header .lead:after,
+.header .dom input[type="submit"],
+.tab .up,
+.tab .col-md-2 button,
+.pricing .services h6,
+.stylish button,
+.pricing .services,
+.stylish h2,
+.contact button,
+.footer
+{
+   color: #fff;
+}
+.navigation,
+.header,
+tab .col-md-2 * ,
+.pricing .services,
+.footer,
+.tab button,
+.footer
+{
+    background-color: #000
+}
+.header h1,
+.header .dom h5,
+.social h2,
+.headerContent,
+.tab .up,
+.sublist .subInfo h3,
+.sublist .subInfo .row h4 ,
+.awsome h2,
+.awsome h4 ,
+.pricing h2,
+.pricing .services h4,
+.pricing .services h6,
+.testim h2 ,
+.testim .row h4,
+.contact button
+{
+    font-weight: bold
+}
+.navigation a,
+.header .own,
+.header .btn,
+.social .genericon,
+.social .lead,
+.tab .lead,
+.sublist .subInfo .lead,
+.awsome .lead,
+.pricing .lead,
+.pricing .services i,
+.pricing ul,
+.testim .lead,
+.contact .lead,
+.contact form input,
+.contact textarea,
+.footer span:hover,
+.footer p
+{
+    color: #909090
+}
+.navigation h2,
+.header h1,
+.header .lead,
+.header .dom h5 span,
+.awsome h2,
+.contact h2,
+.pricing h2,
+.pricing .services h6,
+.pricing li,
+.testim h2,
+.stylish h2
+{ 
+    text-transform: uppercase
+}
+.sublist .subInfo .ghr,
+.awsome h2,
+.awsome .lead,
+.pricing h2,
+.pricing .lead,
+.pricing .services h6,
+.testim h2,
+.testim .lead,
+.stylish h2,
+.stylish .lead,
+.stylish button,
+.contact h2,
+.contact .lead,
+.footer span,
+.pricing h2
+{
+    text-align: center
+}
+.tab .up:hover,
+.contact button:hover
+{
+    color: #000
+} 
+/* End Grouping */
+/* Start Navbar */
+
+.navigation {
+    border-bottom: 1px solid #b4b2b2
+}
+
+.navigation h2 .customName {font-weight: 100}
+
+.navigation a {
+    text-decoration: none;
+    line-height: 55px;
+    padding-right: 25px; 
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/* End Navbar */
+
+/* Start Header */ 
+.header .container {
+    background-size: auto;
+}
+.header .container {
+    padding-top: 70px;
+    padding-bottom: 50px
+}
+.header h1 { 
+    font-size: 70px
+}
+.header h1 .h1 { 
+    font-weight: 100;
+    font-size: 70px; 
+}
+.header .lead {
+    font-size: 40px
+}
+.header .lead:after{
+    display: block;
+    margin-top: -45px;
+    content: "______";
+}
+ 
+.header .btn {
+    background-color: transparent;
+    border: 2px solid #909090;
+    border-radius: none
+    
+}
+.header .dom {
+    transform: scaleY(1.3);
+    width: 330px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 130px;
+    margin-left: 50px;
+    overflow: hidden
+    
+}
+
+.header .dom h5 {
+    letter-spacing: .5px;
+    padding-bottom: 2px;
+}
+
+.header .dom input {
+    display: block;
+    margin-left: 16px;
+    margin-bottom: 30px;
+    border: 0 solid black;
+    border-bottom: 1px solid #7b7474;
+    width: 70%;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out
+}
+.header .dom input:focus {
+    width: 93%;
+}
+.header .dom input[type="submit"] {
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+    height: 35px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}  
+.header .dom input[type="submit"]:hover {
+    color: black;
+
+}
+.header .dom input[type="password"] {
+    margin-bottom: 20px;
+}
+/* End Header */
+
+/* Start Social */
+.social {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #ddd;
+    border-bottom: 1.5px solid #b5b5b5;
+}
+
+.social .genericon {
+    margin-top: 35px;   
+    margin-right: 3px;
+    text-decoration: none;
+    font-size: 70px;
+    padding-right: 15px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+.social .genericon-facebook:hover {
+    color: #3b5998
+}
+.social .genericon-instagram:hover {
+    color: black
+}
+.social .genericon-pinterest-alt:hover {
+    color: #e20000;
+}
+.social .genericon-twitter:hover
+{
+    color: #1da1f2
+}
+
+/* End Social */
+/* Start Tab Section */
+
+.tab {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+
+.tab .lead {
+    margin-top: 25px;
+    font-size: 18px
+}
+#content2, #content3 {
+    display: none
+}
+.tab .col-md-2 button {
+    height: 110px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+    margin-bottom: 0px;
+}
+.tab .up {
+    margin-top: 12px;
+    height: 45px;
+    border: none;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 2px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    
+    
+}
+.imagii { box-shadow: -4px 18px 29px #c1c0c0 }
+/* End Tab Section */ 
+
+/* Start Sublist Section */
+
+.sublist {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sublist img[class="img-thumnail"] {
+    transform: scale(1.4, 1.6);
+    margin-top: 100px;
+}
+
+.sublist .subInfo h3 {
+    text-transform: capitalize;
+    margin-bottom: 20px
+}
+.sublist .subInfo {
+    padding-left:25px
+}
+.sublist .subInfo hr {
+    float: left;
+    width: 100px;
+    border: 1px solid #ff791e; 
+}
+.sublist .subInfo .lead {
+    margin-top: 55px
+}
+.sublist .subInfo .ghr {
+    font-size: 30px;
+    border: 3px solid #ff791e;  
+    border-radius: 50%;
+    line-height: 37 px
+}
+.sublist .subInfo .row .lead {
+    margin-top: -5px;
+    margin-left: 95px;
+    padding: 0
+}
+/* End Sublist Section */
+
+/* Start Standard Section */
+
+.standard {
+    margin-top: 50px;
+    background-color: #f5f5f5;
+}
+
+.sublist .std {
+    transform: scale(1.25, 1.25);
+    box-shadow: -4px 18px 29px #c1c0c0;
+}
+.standard hr {
+    margin: 0
+}
+
+/* End Standard Section */
+
+/* Start Awsome Section */
+
+.awsome {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.awsome h2 {
+    font-family: 'Comic Sans MS';
+    letter-spacing: 1px
+    
+}
+.awsome hr {
+    width: 5px;
+    padding-left: 120px;
+    border: 1px solid #ff791e;
+}
+.awsome .lead {
+    margin-top: 5px
+    
+}
+.awsome .genericon {
+    border: 1px solid #ff791e;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.awsome h4 {
+    margin-bottom: 20px
+}
+.awsome .container .nd {
+    font-size: 18px
+}
+/* End Awsome Section */
+
+/* Start Pricing Section */
+.pricing {
+    margin-top: 100px;
+    margin-bottom: 50px
+}
+
+.pricing h2 {
+    letter-spacing: 1px
+    
+}
+.pricing hr {
+    width: 5px;
+    padding-left: 120px;
+    border: 1px solid #ff791e;
+}
+.pricing .lead {
+    margin-top: 5px
+    
+}
+.pricing .container {
+    margin-top: 50px;
+}
+.pricing .op {
+    margin-top: 60px;
+}
+.pricing .services {
+    border-bottom: 5px solid #ff791e
+}
+.pricing .services h4 {
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+.pricing .services h2 {
+    font-size: 50px
+}
+.pricing .services h2 span {
+    font-size: 170px
+}
+.pricing .services .oi {
+    padding-bottom: 20px
+}
+.pricing .services i {
+    font-size: 18px
+}
+.pricing .services h6 {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    line-height: 40px
+}
+.pricing ul {
+    background-color: #f5f5f5;
+}
+.pricing li {
+    padding: 10px
+}
+/* End Pricing Section */
+/* Start Testimonial Section */
+
+.testim {
+    margin-top: 100px;
+    margin-bottom: 50px
+}
+
+.testim hr {
+    width: 5px;
+    padding-left: 120px;
+    border: 1px solid #ff791e;
+}
+.testim .lead {
+    margin-top: 5px
+    
+}
+.testim .row .lead {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.testim .row img {
+    float: left;
+    border-radius: 50%
+}
+.testim .row h4 {
+    float: left
+
+}
+.testim .row .col-md-8 .lead {
+    margin-top: 40px;
+    text-indent: -140px
+}
+/* End Testimonial Section */
+
+/* Start Stylish Section */
+.stylish {
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: url("../images/nat.jpg") no-repeat center center;
+    transform: scaleX(1.3)
+}
+
+.stylish h2 {
+    padding-top: 35px;
+    margin-bottom: 30px;
+    letter-spacing: 1px
+    
+}
+.stylish hr {
+    background-color: #fff;
+    width: 5px;
+    padding-left: 120px;
+    border: 1px solid #fff;
+}
+.stylish .lead {
+    color: #d1d1d1;
+    margin-top: 5px
+    
+}
+.stylish button {
+    border: 2px solid #FFF;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 45%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* End Stylish Section */
+
+/* Start Contact Us Section */
+.contact {
+    margin-top: 100px
+}
+
+.contact hr {
+    width: 5px;
+    padding-left: 120px;
+    border: 1px solid #ff791e;
+}
+.contact .lead {
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.contact form input {
+    border: none;
+    text-indent: 10px;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #909090;
+    display: block
+}
+.contact form input:last-child{
+    margin: 0
+}
+.contact textarea {
+    border: none;
+    height: 90%;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 1px solid #909090
+}
+.contact textarea:focus {
+    border: none;
+    color: black
+}
+.contact button {
+    margin: 50px auto;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/* End Contact Us Section */
+
+/* Start Footer Section */
+
+.footer span {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/* End Footer Section */
+
+
+/* Media Query */
+@media (max-width: 768px) {
+    
+   .navigation h2 { padding-left: 10px }
+   .header {height: 800px;}
+    testim .row img {
+        float: left;
+        border-radius: 50%;
+        width: 50%;    
+    }
+    .navigation a {
+        line-height: 30px;
+        padding-right: 18px;
+    }
+    .navigation .Links {
+        margin: 0;
+        line-height: 3;
+        padding: 0;
+        margin-left: 50px;
+    }
+    .header .dom {
+        margin-top: 50px;
+        padding-top: 0;
+        
+    }
+    .header {
+        margin-bottom: -35px;
+        height: 830px
+    }
+    .header .col-md-5 {
+        margin-top: -70px;
+        margin-left: 237px;
+    } 
+    .social span { margin-left: 20% }
+    .social .genericon {
+        font-size: 40px;
+        margin-top: 0;
+    }
+    .sublist .subInfo {
+        margin-bottom: 16px
+    }
+    .social .genericon {
+        font-size: 35px;
+    }
+    
+    .header .lead { font-size: 25px }
+    .header .own { margin-top: -18px }
+    .header .lead:after { margin-top: -30px }
+    .header .dom {
+        margin-left: 0;
+        width: 250px
+    }    
+    .headerContent { margin-top: 15px } 
+    .tab .lead { margin-top: 10px }
+    .tab .up {
+        margin-top: -20px;
+        margin-bottom: 15px
+    }
+    .sublist { margin-bottom: -60px }
+    .sublist img[class="img-thumnail"] { transform: scale(1, 1) }
+    .sublist .subInfo h3 { margin-top: 15px }
+    .sublist .subInfo hr { margin-top: -10px }
+    .sublist .subInfo .lead { margin-top: 28px }
+    .sublist .subInfo .row h4 {
+        margin-left: 65px;
+        margin-top: -36px;
+    }
+    .awsome { margin-top: 70px }
+    .pricing .lead { margin-bottom: -60px }
+    .pricing ul { margin-bottom: 20px }
+    .pricing .services { margin-top: 20px }
+    .testim .row img{ width: 40% }
+    .testim .row h4 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-left: 50%;
+        margin-top: -126px;
+    }
+    .testim .row .col-md-8 .lead {
+        margin-left: 50%;
+        margin-top: -78px;
+    }
+    .stylish { transform: scaleX(1) }
+    .stylish button { margin-left: 38% }
+    .contact textarea { margin-top: 40px }
+    .gi-x3 { font-size: 28px }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+    .header .lead {
+        font-size: 28px
+    }
+    .header h5 {letter-spacing: -2px} 
+    .header .lead:after {
+        margin-top: -30px
+    }
+    .header .dom {
+        margin-left: 0;
+        width: 250px
+    }
+    .social .genericon {
+        font-size: 70px;
+        padding-bottom: 10px;
+        margin-top: 0;
+    }
+    .sublist img[class="img-thumnail"] { transform: scale(0.7, 1) }
+}
